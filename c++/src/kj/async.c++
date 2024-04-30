@@ -3020,7 +3020,7 @@ void CoroutineBase::tracePromise(TraceBuilder& builder, bool stopAtNextEvent) {
   if (stopAtNextEvent) return;
 
   KJ_IF_SOME(promise, promiseNodeForTrace) {
-    promise.tracePromise(builder, stopAtNextEvent);
+    promise->tracePromise(builder, stopAtNextEvent);
   }
 
   // Maybe returning the address of coroutine() will give us a function name with meaningful type
@@ -3047,7 +3047,7 @@ Maybe<Own<Event>> CoroutineBase::fire() {
 
 void CoroutineBase::traceEvent(TraceBuilder& builder) {
   KJ_IF_SOME(promise, promiseNodeForTrace) {
-    promise.tracePromise(builder, true);
+    promise->tracePromise(builder, true);
   }
 
   // Maybe returning the address of coroutine() will give us a function name with meaningful type
@@ -3144,9 +3144,9 @@ bool CoroutineBase::AwaiterBase::awaitSuspendImpl(CoroutineBase& coroutineEvent)
     // returned true from await_ready().
     return false;
   } else {
-    // Otherwise, we must suspend. Store a reference to the promise we're waiting on for tracing
-    // purposes; coroutineEvent.fire() and/or ~Adapter() will null this out.
-    coroutineEvent.promiseNodeForTrace = *node;
+    // Otherwise, we must suspend. Store a reference to the OwnPromiseNode we're waiting on for
+    // tracing purposes; coroutineEvent.fire() and/or ~Adapter() will null this out.
+    coroutineEvent.promiseNodeForTrace = node;
     maybeCoroutineEvent = coroutineEvent;
 
     coroutineEvent.hasSuspendedAtLeastOnce = true;
