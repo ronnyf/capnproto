@@ -381,7 +381,7 @@ KJ_TEST("co_await only sees coroutine destruction exceptions if promise was not 
       awaitPromise(kj::mv(rejectedThrowyDtorPromise)).wait(waitScope));
 }
 
-#if (!_MSC_VER || defined(__clang__)) && !__aarch64__
+#if !_MSC_VER && !__aarch64__
 uint countLines(StringPtr s) {
   uint lines = 0;
   for (char c: s) {
@@ -391,7 +391,7 @@ uint countLines(StringPtr s) {
 }
 
 // TODO(msvc): This test relies on GetFunctorStartAddress, which is not supported on MSVC currently,
-//   so skip the test.
+//   so skip the test. It also appears to fail on clang-cl, which uses the MSVC backend.
 // TODO(someday): Test is flakey on arm64, depending on how it's compiled. I haven't had a chance to
 //   investigate much, but noticed that it failed in a debug build, but passed in a local opt build.
 KJ_TEST("Can trace through coroutines") {
