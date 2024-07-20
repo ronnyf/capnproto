@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include <capnp/test.capnp.h>
+#include "capnp/test.capnp.h"
 #include <iostream>
 #include "blob.h"
 #include <kj/compat/gtest.h>

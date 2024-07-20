@@ -28,7 +28,7 @@
 #include <kj/debug.h>
 #include <kj/string-tree.h>
 #include <kj/compat/gtest.h>
-#include <capnp/rpc.capnp.h>
+#include "capnp/rpc.capnp.h"
 #include <map>
 #include <queue>
 

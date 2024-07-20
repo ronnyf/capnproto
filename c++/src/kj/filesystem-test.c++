@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "filesystem.h"
-#include "test.h"
+#include "kj/filesystem.h"
+#include "kj/test.h"
 #include <wchar.h>
 
 namespace kj {

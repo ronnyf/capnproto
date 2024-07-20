@@ -23,9 +23,9 @@
 #define _GNU_SOURCE
 #endif
 
-#include "debug.h"
-#include "exception.h"
-#include <kj/compat/gtest.h>
+#include "kj/debug.h"
+#include "kj/exception.h"
+#include "kj/compat/gtest.h"
 #include <string>
 #include <stdio.h>
 #include <signal.h>
@@ -34,7 +34,7 @@
 #include <exception>
 #include <stdlib.h>
 
-#include "miniposix.h"
+#include "kj/miniposix.h"
 
 #if !_WIN32
 #include <sys/wait.h>

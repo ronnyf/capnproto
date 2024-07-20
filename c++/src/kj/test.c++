@@ -23,14 +23,14 @@
 #define _GNU_SOURCE
 #endif
 
-#include "test.h"
-#include "main.h"
-#include "io.h"
-#include "miniposix.h"
+#include "kj/test.h"
+#include "kj/kmain.h"
+#include "kj/io.h"
+#include "kj/miniposix.h"
 #include <stdlib.h>
 #include <signal.h>
 #include <string.h>
-#include "time.h"
+#include "kj/time.h"
 #ifndef _WIN32
 #include <sys/mman.h>
 #endif

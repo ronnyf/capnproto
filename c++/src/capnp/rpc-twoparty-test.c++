@@ -32,7 +32,7 @@
 
 #include "rpc-twoparty.h"
 #include "test-util.h"
-#include <capnp/rpc.capnp.h>
+#include "capnp/rpc.capnp.h"
 #include <kj/debug.h>
 #include <kj/thread.h>
 #include <kj/compat/gtest.h>

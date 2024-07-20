@@ -21,11 +21,11 @@
 
 #if __GNUC__ && !_WIN32
 
-#include "debug.h"
-#include <kj/exception.h>
-#include "kj/common.h"
-#include "kj/array.h"
-#include <kj/compat/gtest.h>
+#include "kj/debug.h"
+#include "kj/exception.h"
+#include "kj/kj/common.h"
+#include "kj/kj/array.h"
+#include "kj/compat/gtest.h"
 #include <stdexcept>
 #include <stdint.h>
 

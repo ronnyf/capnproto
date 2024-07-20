@@ -23,8 +23,8 @@
 #define _GNU_SOURCE
 #endif
 
-#include <capnp/test-import.capnp.h>
-#include <capnp/test-import2.capnp.h>
+#include "capnp/test-import.capnp.h"
+#include "capnp/test-import2.capnp.h"
 #include "message.h"
 #include "serialize.h"
 #include <kj/test.h>

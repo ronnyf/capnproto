@@ -22,7 +22,7 @@
 #pragma once
 
 #include <initializer_list>
-#include "array.h"
+#include "kj/array.h"
 #include "kj/common.h"
 #include <string.h>
 

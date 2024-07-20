@@ -21,9 +21,9 @@
 
 #pragma once
 
-#include "memory.h"
-#include "array.h"
-#include "string.h"
+#include "kj/memory.h"
+#include "kj/array.h"
+#include "kj/string.h"
 
 KJ_BEGIN_HEADER
 

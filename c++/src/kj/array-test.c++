@@ -19,11 +19,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "array.h"
-#include "debug.h"
+#include "kj/array.h"
+#include "kj/debug.h"
 #include <string>
 #include <list>
-#include <kj/compat/gtest.h>
+#include "kj/compat/gtest.h"
 
 namespace kj {
 namespace {

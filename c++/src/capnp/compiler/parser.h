@@ -21,11 +21,11 @@
 
 #pragma once
 
-#include <capnp/compiler/grammar.capnp.h>
-#include <capnp/compiler/lexer.capnp.h>
+#include "capnpc/compiler/grammar.capnp.h"
+#include "capnpc/compiler/lexer.capnp.h"
 #include <kj/parse/common.h>
 #include <kj/arena.h>
-#include "error-reporter.h"
+#include "capnpc/compiler/error-reporter.h"
 
 CAPNP_BEGIN_HEADER
 

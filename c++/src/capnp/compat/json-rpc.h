@@ -23,7 +23,7 @@
 
 #include "json.h"
 #include <kj/async-io.h>
-#include <capnp/capability.h>
+#include "capnp/capability.h"
 #include <kj/map.h>
 
 CAPNP_BEGIN_HEADER

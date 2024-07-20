@@ -21,10 +21,10 @@
 
 #pragma once
 
-#include "common.h"
-#include "tuple.h"
-#include "vector.h"
-#include "function.h"
+#include "kj/common.h"
+#include "kj/tuple.h"
+#include "kj/vector.h"
+#include "kj/function.h"
 
 #if _MSC_VER
 // Need _ReadWriteBarrier
@@ -36,7 +36,7 @@
 #endif
 
 #if KJ_DEBUG_TABLE_IMPL
-#include "debug.h"
+#include "kj/debug.h"
 #define KJ_TABLE_IREQUIRE KJ_REQUIRE
 #define KJ_TABLE_IASSERT KJ_ASSERT
 #else

@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "ez-rpc.h"
-#include "rpc-twoparty.h"
-#include <capnp/rpc.capnp.h>
+#include "capnp/ez-rpc.h"
+#include "capnp/rpc-twoparty.h"
+#include "capnp/rpc.capnp.h"
 #include <kj/async-io.h>
 #include <kj/debug.h>
 #include <kj/threadlocal.h>

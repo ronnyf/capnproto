@@ -25,7 +25,7 @@
 
 #pragma once
 
-#include "common.h"
+#include "kj/common.h"
 #include <inttypes.h>
 
 KJ_BEGIN_HEADER

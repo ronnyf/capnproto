@@ -19,15 +19,15 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "http.h"
+#include "kj/compat/http.h"
 #include "kj/exception.h"
-#include "url.h"
-#include <kj/debug.h>
-#include <kj/parse/char.h>
-#include <kj/string.h>
+#include "kj/compat/url.h"
+#include "kj/debug.h"
+#include "kj/parse/char.h"
+#include "kj/string.h"
 #include <unordered_map>
 #include <stdlib.h>
-#include <kj/encoding.h>
+#include "kj/encoding.h"
 #include <deque>
 #include <queue>
 #include <map>

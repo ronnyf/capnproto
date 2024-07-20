@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "layout.h"
-#include "orphan.h"
+#include "capnp/layout.h"
+#include "capnp/orphan.h"
 #include <initializer_list>
 
 CAPNP_BEGIN_HEADER
@@ -546,7 +546,7 @@ private:
 }  // namespace capnp
 
 #ifdef KJ_STD_COMPAT
-#include "compat/std-iterator.h"
+#include "capnp/compat/std-iterator.h"
 #endif  // KJ_STD_COMPAT
 
 CAPNP_END_HEADER

@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "function.h"
-#include <kj/compat/gtest.h>
+#include "kj/function.h"
+#include "kj/compat/gtest.h"
 
 namespace kj {
 namespace {

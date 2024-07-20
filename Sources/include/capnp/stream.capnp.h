@@ -1,0 +1,1 @@
+../../../c++/src/capnp/stream.capnp.h

@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include <capnp/capability.h>
-#include "rpc-prelude.h"
+#include "capnp/capability.h"
+#include "capnp/rpc-prelude.h"
 
 CAPNP_BEGIN_HEADER
 

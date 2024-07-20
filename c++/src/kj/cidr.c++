@@ -21,17 +21,17 @@
 
 #if _WIN32
 // Request Vista-level APIs.
-#include <kj/win32-api-version.h>
+#include "kj/win32-api-version.h"
 #endif
 
-#include "debug.h"
-#include "cidr.h"
+#include "kj/debug.h"
+#include "kj/cidr.h"
 
 #if _WIN32
 #include <winsock2.h>
 #include <ws2ipdef.h>
 #include <ws2tcpip.h>
-#include <kj/windows-sanity.h>
+#include "kj/windows-sanity.h"
 #define inet_pton InetPtonA
 #define inet_ntop InetNtopA
 #include <io.h>

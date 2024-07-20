@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "string.h"
+#include "kj/string.h"
 
 KJ_BEGIN_HEADER
 

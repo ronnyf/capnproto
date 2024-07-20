@@ -21,10 +21,10 @@
 
 #pragma once
 
-#include "async.h"
-#include <kj/function.h>
-#include <kj/thread.h>
-#include <kj/timer.h>
+#include "kj/async.h"
+#include "kj/function.h"
+#include "kj/thread.h"
+#include "kj/timer.h"
 
 KJ_BEGIN_HEADER
 

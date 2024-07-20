@@ -23,10 +23,10 @@
 #define _GNU_SOURCE
 #endif
 
-#include "io.h"
-#include "debug.h"
-#include "miniposix.h"
-#include <kj/compat/gtest.h>
+#include "kj/io.h"
+#include "kj/debug.h"
+#include "kj/miniposix.h"
+#include "kj/compat/gtest.h"
 
 namespace kj {
 namespace {

@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "table.h"
-#include "hash.h"
+#include "kj/table.h"
+#include "kj/hash.h"
 
 KJ_BEGIN_HEADER
 

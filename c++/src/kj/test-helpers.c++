@@ -23,7 +23,7 @@
 #define _GNU_SOURCE
 #endif
 
-#include "test.h"
+#include "kj/test.h"
 
 #include <string.h>
 #ifndef _WIN32

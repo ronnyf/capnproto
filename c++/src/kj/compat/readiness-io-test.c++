@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "readiness-io.h"
-#include <kj/test.h>
+#include "kj/readiness-io.h"
+#include "kj/test.h"
 #include <stdlib.h>
 
 namespace kj {

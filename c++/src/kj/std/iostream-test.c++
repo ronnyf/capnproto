@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "iostream.h"
+#include "kj/iostream.h"
 #include <sstream>
-#include <kj/compat/gtest.h>
+#include "kj/compat/gtest.h"
 
 namespace kj {
 namespace std {

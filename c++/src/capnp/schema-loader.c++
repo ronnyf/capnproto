@@ -20,16 +20,16 @@
 // THE SOFTWARE.
 
 #define CAPNP_PRIVATE
-#include "schema-loader.h"
-#include "message.h"
-#include "arena.h"
+#include "capnp/schema-loader.h"
+#include "capnp/message.h"
+#include "capnp/arena.h"
 #include <kj/debug.h>
 #include <kj/exception.h>
 #include <kj/arena.h>
 #include <kj/vector.h>
 #include <algorithm>
 #include <kj/map.h>
-#include <capnp/stream.capnp.h>
+#include "capnp/stream.capnp.h"
 
 #if _MSC_VER && !defined(__clang__)
 #include <atomic>

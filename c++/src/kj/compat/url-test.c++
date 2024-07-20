@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "url.h"
-#include <kj/debug.h>
-#include <kj/test.h>
+#include "kj/url.h"
+#include "kj/debug.h"
+#include "kj/test.h"
 
 namespace kj {
 namespace {

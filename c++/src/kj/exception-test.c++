@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "exception.h"
-#include "debug.h"
-#include <kj/compat/gtest.h>
+#include "kj/exception.h"
+#include "kj/debug.h"
+#include "kj/compat/gtest.h"
 #include <stdexcept>
 #include <stdint.h>
 
