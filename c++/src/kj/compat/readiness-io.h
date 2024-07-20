@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include <kj/async-io.h>
+#include "kj/async-io.h"
 
 KJ_BEGIN_HEADER
 

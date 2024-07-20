@@ -21,7 +21,7 @@
 
 #if _WIN32
 
-#include "async-win32.h"
+#include "kj/async-win32.h"
 
 #define KJ_XTHREAD_TEST_SETUP_LOOP \
   Win32IocpEventPort port; \

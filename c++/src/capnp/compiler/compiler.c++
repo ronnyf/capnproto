@@ -19,17 +19,17 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "compiler.h"
-#include "parser.h"      // only for generateChildId()
+#include "capnpc/compiler/compiler.h"
+#include "capnpc/compiler/parser.h"      // only for generateChildId()
 #include <kj/mutex.h>
 #include <kj/arena.h>
 #include <kj/vector.h>
 #include <kj/debug.h>
-#include <capnp/message.h>
+#include "capnp/message.h"
 #include <map>
 #include <set>
 #include <unordered_map>
-#include "node-translator.h"
+#include "capnpc/compiler/node-translator.h"
 
 namespace capnp {
 namespace compiler {

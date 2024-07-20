@@ -21,24 +21,24 @@
 
 #if !_WIN32
 
-#include "async-unix.h"
-#include "thread.h"
-#include "debug.h"
-#include "io.h"
+#include "kj/async-unix.h"
+#include "kj/thread.h"
+#include "kj/debug.h"
+#include "kj/io.h"
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <sys/stat.h>
 #include <netinet/in.h>
-#include <kj/compat/gtest.h>
+#include "kj/compat/gtest.h"
 #include <pthread.h>
 #include <algorithm>
 #include <sys/wait.h>
 #include <sys/time.h>
 #include <errno.h>
 #include <atomic>
-#include "mutex.h"
+#include "kj/mutex.h"
 
 #if KJ_USE_EPOLL
 #include <sys/epoll.h>

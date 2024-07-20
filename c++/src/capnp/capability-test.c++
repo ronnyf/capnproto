@@ -25,7 +25,7 @@
 #error "schema.capnp should not depend on capability.h, because it contains no interfaces."
 #endif
 
-#include <capnp/test.capnp.h>
+#include "capnp/test.capnp.h"
 
 #ifndef CAPNP_CAPABILITY_H_INCLUDED
 #error "test.capnp did not include capability.h."

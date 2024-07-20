@@ -19,10 +19,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "string.h"
-#include <kj/compat/gtest.h>
+#include "kj/string.h"
+#include "kj/compat/gtest.h"
 #include <string>
-#include "vector.h"
+#include "kj/vector.h"
 #include <locale.h>
 #include <stdint.h>
 

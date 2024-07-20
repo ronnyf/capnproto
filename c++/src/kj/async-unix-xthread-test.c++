@@ -21,7 +21,7 @@
 
 #if !_WIN32
 
-#include "async-unix.h"
+#include "kj/async-unix.h"
 
 #define KJ_XTHREAD_TEST_SETUP_LOOP \
   UnixEventPort port; \

@@ -21,10 +21,10 @@
 
 #if _WIN32
 
-#include "async-win32.h"
-#include "thread.h"
-#include "test.h"
-#include "mutex.h"
+#include "kj/async-win32.h"
+#include "kj/thread.h"
+#include "kj/test.h"
+#include "kj/mutex.h"
 
 namespace kj {
 namespace {

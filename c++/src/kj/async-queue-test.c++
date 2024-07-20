@@ -19,11 +19,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "async-queue.h"
+#include "kj/async-queue.h"
 
-#include <kj/async-io.h>
-#include <kj/test.h>
-#include <kj/vector.h>
+#include "kj/async-io.h"
+#include "kj/test.h"
+#include "kj/vector.h"
 
 namespace kj {
 namespace {

@@ -22,9 +22,9 @@
 
 #pragma once
 
-#include "units.h"
+#include "kj/units.h"
 #include <inttypes.h>
-#include "string.h"
+#include "kj/string.h"
 
 KJ_BEGIN_HEADER
 

@@ -25,7 +25,7 @@
 
 #pragma once
 
-#include "../io.h"
+#include "kj/io.h"
 #include <iostream>
 
 KJ_BEGIN_HEADER

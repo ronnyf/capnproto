@@ -25,23 +25,23 @@
 #include <kj/win32-api-version.h>
 #endif
 
-#include <capnp/schema.capnp.h>
-#include "../serialize.h"
+#include "capnp/schema.capnp.h"
+#include "capnp/serialize.h"
 #include <kj/debug.h>
 #include <kj/io.h>
 #include <kj/string-tree.h>
 #include <kj/tuple.h>
 #include <kj/vector.h>
 #include <kj/filesystem.h>
-#include "../schema-loader.h"
-#include "../dynamic.h"
+#include "capnp/schema-loader.h"
+#include "capnp/dynamic.h"
 #include <unordered_map>
 #include <unordered_set>
 #include <map>
 #include <set>
-#include <kj/main.h>
+#include <kj/kmain.h>
 #include <algorithm>
-#include <capnp/stream.capnp.h>
+#include "capnp/stream.capnp.h"
 
 #if _WIN32
 #include <windows.h>
@@ -550,7 +550,7 @@ private:
             case schema::Type::AnyPointer::Unconstrained::LIST:
               return CppTypeName::makePrimitive(" ::capnp::AnyList");
             case schema::Type::AnyPointer::Unconstrained::CAPABILITY: {
-              hasInterfaces = true;  // Probably need to #include <capnp/capability.h>.
+              hasInterfaces = true;  // Probably need to #include "capnp/capability.h".
               auto result = CppTypeName::makePrimitive(" ::capnp::Capability");
               result.setHasInterfaces();
               return result;

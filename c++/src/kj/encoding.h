@@ -26,7 +26,7 @@
 // - URI encoding
 // - Base64
 
-#include "string.h"
+#include "kj/string.h"
 
 KJ_BEGIN_HEADER
 

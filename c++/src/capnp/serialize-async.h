@@ -23,7 +23,7 @@
 
 #include <kj/async-io.h>
 #include <kj/io.h>
-#include "message.h"
+#include "capnp/message.h"
 
 CAPNP_BEGIN_HEADER
 

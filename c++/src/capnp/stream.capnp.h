@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include <capnp/generated-header-support.h>
+#include "capnp/generated-header-support.h"
 #include <kj/windows-sanity.h>
 
 #ifndef CAPNP_VERSION

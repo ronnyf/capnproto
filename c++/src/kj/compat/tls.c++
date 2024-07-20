@@ -21,9 +21,9 @@
 
 #if KJ_HAS_OPENSSL
 
-#include "tls.h"
+#include "kj/compat/tls.h"
 
-#include "readiness-io.h"
+#include "kj/compat/readiness-io.h"
 
 #include <openssl/bio.h>
 #include <openssl/conf.h>
@@ -34,9 +34,9 @@
 #include <openssl/x509.h>
 #include <openssl/x509v3.h>
 
-#include <kj/async-queue.h>
-#include <kj/debug.h>
-#include <kj/vector.h>
+#include "kj/async-queue.h"
+#include "kj/debug.h"
+#include "kj/vector.h"
 
 #if OPENSSL_VERSION_NUMBER < 0x10100000L
 #define BIO_set_init(x,v)          (x->init=v)

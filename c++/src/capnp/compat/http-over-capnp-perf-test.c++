@@ -23,7 +23,7 @@
 #include <kj/compat/http.h>
 #include <kj/test.h>
 #include <kj/debug.h>
-#include <capnp/rpc-twoparty.h>
+#include "capnp/rpc-twoparty.h"
 #include <stdlib.h>
 #if KJ_BENCHMARK_MALLOC
 #include <dlfcn.h>

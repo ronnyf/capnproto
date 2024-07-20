@@ -19,11 +19,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "async.h"
-#include "debug.h"
-#include <kj/compat/gtest.h>
-#include "mutex.h"
-#include "thread.h"
+#include "kj/async.h"
+#include "kj/debug.h"
+#include "kj/compat/gtest.h"
+#include "kj/mutex.h"
+#include "kj/thread.h"
 
 #if !KJ_USE_FIBERS && !_WIN32
 #include <pthread.h>

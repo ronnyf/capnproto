@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "rpc-twoparty.h"
-#include "serialize-async.h"
+#include "capnp/rpc-twoparty.h"
+#include "capnp/serialize-async.h"
 #include <kj/debug.h>
 #include <kj/io.h>
 

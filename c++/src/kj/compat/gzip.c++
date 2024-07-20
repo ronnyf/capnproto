@@ -21,8 +21,8 @@
 
 #if KJ_HAS_ZLIB
 
-#include "gzip.h"
-#include <kj/debug.h>
+#include "kj/compat/gzip.h"
+#include "kj/debug.h"
 
 namespace kj {
 

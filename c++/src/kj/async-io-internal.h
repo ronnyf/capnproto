@@ -21,12 +21,12 @@
 
 #pragma once
 
-#include "string.h"
-#include "vector.h"
-#include "async-io.h"
+#include "kj/string.h"
+#include "kj/vector.h"
+#include "kj/async-io.h"
 #include <stdint.h>
-#include "one-of.h"
-#include "cidr.h"
+#include "kj/one-of.h"
+#include "kj/cidr.h"
 
 KJ_BEGIN_HEADER
 

@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "map.h"
-#include <kj/test.h>
+#include "kj/map.h"
+#include "kj/test.h"
 
 namespace kj {
 namespace _ {

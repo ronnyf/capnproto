@@ -21,9 +21,9 @@
 
 #if KJ_HAS_BROTLI
 
-#include "brotli.h"
-#include <kj/test.h>
-#include <kj/debug.h>
+#include "kj/brotli.h"
+#include "kj/test.h"
+#include "kj/debug.h"
 #include <stdlib.h>
 
 namespace kj {

@@ -21,7 +21,7 @@
 
 #include "json-rpc.h"
 #include <kj/test.h>
-#include <capnp/test-util.h>
+#include "capnp/test-util.h"
 
 namespace capnp {
 namespace _ {  // private

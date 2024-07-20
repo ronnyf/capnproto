@@ -21,9 +21,9 @@
 
 #pragma once
 
-#include "common.h"
-#include "function.h"
-#include "exception.h"
+#include "kj/common.h"
+#include "kj/function.h"
+#include "kj/exception.h"
 
 KJ_BEGIN_HEADER
 

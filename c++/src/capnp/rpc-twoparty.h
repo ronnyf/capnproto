@@ -21,11 +21,11 @@
 
 #pragma once
 
-#include "rpc.h"
-#include <capnp/message.h>
+#include "capnp/rpc.h"
+#include "capnp/message.h"
 #include <kj/async-io.h>
-#include <capnp/serialize-async.h>
-#include <capnp/rpc-twoparty.capnp.h>
+#include "capnp/serialize-async.h"
+#include "capnp/rpc-twoparty.capnp.h"
 #include <kj/one-of.h>
 
 CAPNP_BEGIN_HEADER

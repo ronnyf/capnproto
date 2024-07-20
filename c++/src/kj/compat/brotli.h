@@ -21,9 +21,9 @@
 
 #pragma once
 
-#include <kj/io.h>
-#include <kj/async-io.h>
-#include <kj/one-of.h>
+#include "kj/io.h"
+#include "kj/async-io.h"
+#include "kj/one-of.h"
 #include <brotli/decode.h>
 #include <brotli/encode.h>
 

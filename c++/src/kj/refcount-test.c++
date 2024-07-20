@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "refcount.h"
-#include <kj/compat/gtest.h>
+#include "kj/refcount.h"
+#include "kj/compat/gtest.h"
 
 namespace kj {
 

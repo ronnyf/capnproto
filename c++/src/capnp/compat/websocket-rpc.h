@@ -22,7 +22,7 @@
 #pragma once
 
 #include <kj/compat/http.h>
-#include <capnp/serialize-async.h>
+#include "capnp/serialize-async.h"
 
 CAPNP_BEGIN_HEADER
 

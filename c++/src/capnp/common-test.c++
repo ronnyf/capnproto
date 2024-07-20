@@ -23,7 +23,7 @@
 #include <kj/compat/gtest.h>
 #include <kj/string.h>
 #include <kj/debug.h>
-#include <capnp/test.capnp.h>
+#include "capnp/test.capnp.h"
 
 #if HAVE_CONFIG_H
 #include "config.h"

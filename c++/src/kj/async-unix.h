@@ -25,10 +25,10 @@
 #error "This file is Unix-specific. On Windows, include async-win32.h instead."
 #endif
 
-#include "async.h"
-#include "timer.h"
-#include <kj/vector.h>
-#include <kj/io.h>
+#include "kj/async.h"
+#include "kj/timer.h"
+#include "kj/vector.h"
+#include "kj/io.h"
 #include <signal.h>
 
 KJ_BEGIN_HEADER

@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "char.h"
-#include "../string.h"
-#include <kj/compat/gtest.h>
+#include "kj/char.h"
+#include "kj/../string.h"
+#include "kj/compat/gtest.h"
 
 namespace kj {
 namespace parse {

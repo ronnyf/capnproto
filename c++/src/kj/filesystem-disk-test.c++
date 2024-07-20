@@ -24,16 +24,16 @@
 // Request 64-bit off_t and ino_t, otherwise this code will break when either value exceeds 2^32.
 #endif
 
-#include "debug.h"
-#include "filesystem.h"
-#include "string.h"
-#include "test.h"
-#include "encoding.h"
+#include "kj/debug.h"
+#include "kj/filesystem.h"
+#include "kj/string.h"
+#include "kj/test.h"
+#include "kj/encoding.h"
 #include <stdlib.h>
 #include <string>
 #if _WIN32
 #include <windows.h>
-#include "windows-sanity.h"
+#include "kj/windows-sanity.h"
 #else
 #include <unistd.h>
 #include <errno.h>

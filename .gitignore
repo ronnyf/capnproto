@@ -82,3 +82,5 @@
 
 # bazel output
 bazel-*
+.DS_Store
+**/xcuserdata/*

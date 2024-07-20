@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "memory.h"
-#include <kj/compat/gtest.h>
-#include "debug.h"
+#include "kj/memory.h"
+#include "kj/compat/gtest.h"
+#include "kj/debug.h"
 
 namespace kj {
 namespace {

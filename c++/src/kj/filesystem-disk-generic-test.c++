@@ -32,8 +32,8 @@
 // needs to link against the rest of KJ. Ekam "just figures it out", but other build systems would
 // require a lot of work here.
 
-#include "filesystem.h"
-#include "debug.h"
+#include "kj/filesystem.h"
+#include "kj/debug.h"
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/ioctl.h>
@@ -44,8 +44,8 @@
 #include <errno.h>
 #include <dirent.h>
 #include <syscall.h>
-#include "vector.h"
-#include "miniposix.h"
+#include "kj/vector.h"
+#include "kj/miniposix.h"
 
 #undef __linux__
 #undef O_CLOEXEC
