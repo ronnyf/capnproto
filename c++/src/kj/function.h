@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "kj/memory.h"
+#include <kj/memory.h>
 
 KJ_BEGIN_HEADER
 

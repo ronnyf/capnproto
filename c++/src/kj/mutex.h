@@ -21,12 +21,12 @@
 
 #pragma once
 
-#include "kj/debug.h"
-#include "kj/memory.h"
+#include <kj/debug.h>
+#include <kj/memory.h>
 #include <inttypes.h>
-#include "kj/time.h"
-#include "kj/source-location.h"
-#include "kj/one-of.h"
+#include <kj/time.hpp>
+#include <kj/source-location.h>
+#include <kj/one-of.h>
 
 KJ_BEGIN_HEADER
 

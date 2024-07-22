@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "kj/memory.h"
+#include <kj/memory.h>
 #include <string.h>
 #include <initializer_list>
 

@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "kj/parse/char.h"
-#include "kj/debug.h"
+#include <kj/parse_char.h>
+#include <kj/debug.h>
 #include <stdlib.h>
 
 namespace kj {

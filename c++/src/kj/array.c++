@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "kj/array.h"
-#include "kj/exception.h"
+#include <kj/array.h>
+#include <kj/exception.h>
 
 namespace kj {
 

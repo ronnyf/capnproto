@@ -24,8 +24,8 @@
 
 #pragma once
 
-#include "kj/parse/common.h"
-#include "kj/string.h"
+#include <kj/parse_common.h>
+#include <kj/string.hpp>
 #include <inttypes.h>
 
 KJ_BEGIN_HEADER

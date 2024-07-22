@@ -28,14 +28,14 @@
 
 #ifndef KJ_ASYNC_H_INCLUDED
 #error "Do not include this directly; include kj/async.h."
-#include "kj/async.h"  // help IDE parse this file
+#include <kj/async.h>  // help IDE parse this file
 #endif
 
 #if _MSC_VER && KJ_HAS_COROUTINE
 #include <intrin.h>
 #endif
 
-#include "kj/list.h"
+#include <kj/list.h>
 
 KJ_BEGIN_HEADER
 

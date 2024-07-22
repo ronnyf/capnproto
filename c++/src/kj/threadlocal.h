@@ -41,7 +41,7 @@
 // pointers.  Since KJ only ever needs to store pointers, not values, we avoid the question of
 // whether these values' destructors need to be run, and we avoid the need for heap allocation.
 
-#include "kj/common.h"
+#include <kj/common.h>
 
 KJ_BEGIN_HEADER
 

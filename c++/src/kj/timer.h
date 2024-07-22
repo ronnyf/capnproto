@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "kj/time.h"
-#include "kj/async.h"
+#include <kj/time.hpp>
+#include <kj/async.h>
 
 KJ_BEGIN_HEADER
 

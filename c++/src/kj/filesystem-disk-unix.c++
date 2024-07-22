@@ -31,8 +31,8 @@
 // are under 4GB.)
 #endif
 
-#include "kj/filesystem.h"
-#include "kj/debug.h"
+#include <kj/filesystem.h>
+#include <kj/debug.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/ioctl.h>
@@ -43,8 +43,8 @@
 #include <errno.h>
 #include <dirent.h>
 #include <stdlib.h>
-#include "kj/vector.h"
-#include "kj/miniposix.h"
+#include <kj/vector.h>
+#include <kj/miniposix.h>
 #include <algorithm>
 
 #if __linux__

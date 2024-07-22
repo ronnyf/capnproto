@@ -22,9 +22,9 @@
 #pragma once
 
 #include <stddef.h>
-#include "kj/common.h"
-#include "kj/array.h"
-#include "kj/exception.h"
+#include <kj/common.h>
+#include <kj/array.h>
+#include <kj/exception.h>
 #include <stdint.h>
 
 KJ_BEGIN_HEADER

@@ -44,7 +44,7 @@
 #endif
 
 // To get KJ_BEGIN_HEADER/KJ_END_HEADER
-#include "kj/common.h"
+#include <kj/common.h>
 
 KJ_BEGIN_HEADER
 

@@ -21,9 +21,9 @@
 
 #pragma once
 
-#include "kj/async-prelude.h"
-#include "kj/exception.h"
-#include "kj/refcount.h"
+#include <kj/async-prelude.h>
+#include <kj/exception.h>
+#include <kj/refcount.h>
 
 KJ_BEGIN_HEADER
 
@@ -1379,6 +1379,6 @@ private:
 }  // namespace kj
 
 #define KJ_ASYNC_H_INCLUDED
-#include "kj/async-inl.h"
+#include <kj/async-inl.h>
 
 KJ_END_HEADER

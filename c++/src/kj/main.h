@@ -21,10 +21,10 @@
 
 #pragma once
 
-#include "kj/array.h"
-#include "kj/string.h"
-#include "kj/vector.h"
-#include "kj/function.h"
+#include <kj/array.h>
+#include <kj/string.hpp>
+#include <kj/vector.h>
+#include <kj/function.h>
 
 KJ_BEGIN_HEADER
 

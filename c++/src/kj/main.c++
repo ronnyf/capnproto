@@ -24,13 +24,13 @@
 #endif
 
 #if _WIN32
-#include "kj/win32-api-version.h"
+#include <kj/win32-api-version.h>
 #endif
 
-#include "kj/kmain.h"
-#include "kj/debug.h"
-#include "kj/arena.h"
-#include "kj/miniposix.h"
+#include <kj/main.h>
+#include <kj/debug.h>
+#include <kj/arena.h>
+#include <kj/miniposix.h>
 #include <map>
 #include <set>
 #include <stdlib.h>
@@ -39,7 +39,7 @@
 
 #if _WIN32
 #include <windows.h>
-#include "kj/windows-sanity.h"
+#include <kj/windows-sanity.h>
 #else
 #include <sys/uio.h>
 #endif

@@ -21,9 +21,11 @@
 
 #pragma once
 
-#include "kj/io.h"
-#include "kj/async-io.h"
-#include "kj/one-of.h"
+#if KJ_HAS_BROTLI
+
+#include <kj/io.h>
+#include <kj/async-io.h>
+#include <kj/one-of.h>
 #include <brotli/decode.h>
 #include <brotli/encode.h>
 
@@ -188,3 +190,5 @@ private:
 }  // namespace kj
 
 KJ_END_HEADER
+
+#endif // if KJ_HAS_BROTLI

@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "kj/string.h"
-#include "kj/debug.h"
+#include <kj/string.hpp>
+#include <kj/debug.h>
 #include <stdio.h>
 #include <float.h>
 #include <errno.h>

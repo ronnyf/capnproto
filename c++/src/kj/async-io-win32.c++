@@ -23,15 +23,15 @@
 // For Unix implementation, see async-io-unix.c++.
 
 // Request Vista-level APIs.
-#include "kj/win32-api-version.h"
+#include <kj/win32-api-version.h>
 
-#include "kj/async-io.h"
-#include "kj/async-io-internal.h"
-#include "kj/async-win32.h"
-#include "kj/debug.h"
-#include "kj/thread.h"
-#include "kj/io.h"
-#include "kj/vector.h"
+#include <kj/async-io.h>
+#include <kj/async-io-internal.h>
+#include <kj/async-win32.h>
+#include <kj/debug.h>
+#include <kj/thread.h>
+#include <kj/io.h>
+#include <kj/vector.h>
 #include <set>
 
 #include <winsock2.h>

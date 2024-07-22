@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "kj/common.h"
+#include <kj/common.h>
 #include <cstdint>
 
 KJ_BEGIN_HEADER

@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "kj/string.h"
-#include "kj/vector.h"
+#include <kj/string.hpp>
+#include <kj/vector.h>
 #include <inttypes.h>
 
 KJ_BEGIN_HEADER

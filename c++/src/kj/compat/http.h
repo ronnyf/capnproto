@@ -34,12 +34,12 @@
 //   values to them.
 // - Methods are identified by an enum.
 
-#include "kj/string.h"
-#include "kj/vector.h"
-#include "kj/memory.h"
-#include "kj/one-of.h"
-#include "kj/async-io.h"
-#include "kj/debug.h"
+#include <kj/string.hpp>
+#include <kj/vector.h>
+#include <kj/memory.h>
+#include <kj/one-of.h>
+#include <kj/async-io.h>
+#include <kj/debug.h>
 
 KJ_BEGIN_HEADER
 
@@ -234,7 +234,7 @@ public:
   KJ_DISALLOW_COPY_AND_MOVE(HttpHeaderTable);  // Can't copy because HttpHeaderId points to the table.
   ~HttpHeaderTable() noexcept(false);
 
-  uint idCount() const;
+  size_t idCount() const;
   // Return the number of IDs in the table.
 
   kj::Maybe<HttpHeaderId> stringToId(kj::StringPtr name) const;
@@ -1395,7 +1395,7 @@ inline kj::Own<HttpHeaderTable> HttpHeaderTable::Builder::build() {
 }
 inline HttpHeaderTable& HttpHeaderTable::Builder::getFutureTable() { return *table; }
 
-inline uint HttpHeaderTable::idCount() const { return namesById.size(); }
+inline size_t HttpHeaderTable::idCount() const { return namesById.size(); }
 inline bool HttpHeaderTable::isReady() const {
   switch (buildStatus) {
     case BuildStatus::UNSTARTED: return true;

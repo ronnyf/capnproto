@@ -32,13 +32,13 @@
 // as actual files are under 4GB.)
 #endif
 
-#include "kj/async-io.h"
-#include "kj/async-io-internal.h"
-#include "kj/async-unix.h"
-#include "kj/debug.h"
-#include "kj/thread.h"
-#include "kj/io.h"
-#include "kj/miniposix.h"
+#include <kj/async-io.h>
+#include <kj/async-io-internal.h>
+#include <kj/async-unix.h>
+#include <kj/debug.h>
+#include <kj/thread.h>
+#include <kj/io.h>
+#include <kj/miniposix.h>
 #include <unistd.h>
 #include <sys/uio.h>
 #include <errno.h>
@@ -56,7 +56,7 @@
 #include <poll.h>
 #include <limits.h>
 #include <sys/ioctl.h>
-#include "kj/filesystem.h"
+#include <kj/filesystem.h>
 
 #if __linux__
 #include <sys/sendfile.h>

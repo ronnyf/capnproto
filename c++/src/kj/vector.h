@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "kj/array.h"
+#include <kj/array.h>
 
 KJ_BEGIN_HEADER
 

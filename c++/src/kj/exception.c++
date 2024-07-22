@@ -24,7 +24,7 @@
 #endif
 
 #if _WIN32 || __CYGWIN__
-#include "kj/win32-api-version.h"
+#include <kj/win32-api-version.h>
 #endif
 
 #if (_WIN32 && _M_X64) || (__CYGWIN__ && __x86_64__)
@@ -34,13 +34,13 @@
 #define KJ_USE_WIN32_DBGHELP 1
 #endif
 
-#include "kj/exception.h"
-#include "kj/string.h"
-#include "kj/debug.h"
-#include "kj/threadlocal.h"
-#include "kj/miniposix.h"
-#include "kj/function.h"
-#include "kj/kmain.h"
+#include <kj/exception.h>
+#include <kj/string.hpp>
+#include <kj/debug.h>
+#include <kj/threadlocal.h>
+#include <kj/miniposix.h>
+#include <kj/function.h>
+#include <kj/main.h>
 #include <stdlib.h>
 #include <exception>
 #include <new>
@@ -49,7 +49,7 @@
 #ifndef _WIN32
 #include <sys/mman.h>
 #endif
-#include "kj/io.h"
+#include <kj/io.h>
 
 #if !KJ_NO_RTTI
 #include <typeinfo>
@@ -65,7 +65,7 @@
 
 #if _WIN32 || __CYGWIN__
 #include <windows.h>
-#include "kj/windows-sanity.h"
+#include <kj/windows-sanity.h>
 #include <dbghelp.h>
 #endif
 
@@ -80,7 +80,7 @@
 #endif
 
 #if KJ_HAS_LIBDL
-#include "kj/dlfcn.h"
+#include <kj/dlfcn.h>
 #endif
 
 #if _MSC_VER
