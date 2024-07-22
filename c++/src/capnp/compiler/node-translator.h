@@ -22,14 +22,14 @@
 #pragma once
 
 #include "capnp/orphan.h"
-#include "capnpc/compiler/grammar.capnp.h"
+#include "capnp/compiler/grammar.capnp.h"
 #include "capnp/schema.capnp.h"
 #include "capnp/dynamic.h"
 #include <kj/vector.h>
 #include <kj/one-of.h>
-#include "capnpc/compiler/error-reporter.h"
-#include "capnpc/compiler/resolver.h"
-#include "capnpc/compiler/generics.h"
+#include "capnp/compiler/error-reporter.h"
+#include "capnp/compiler/resolver.h"
+#include "capnp/compiler/generics.h"
 #include <map>
 
 CAPNP_BEGIN_HEADER

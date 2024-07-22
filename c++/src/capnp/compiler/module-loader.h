@@ -21,12 +21,12 @@
 
 #pragma once
 
-#include "capnpc/compiler/compiler.h"
-#include "capnpc/compiler/error-reporter.h"
-#include <kj/memory.h>
+#include "capnp/compiler/compiler.h"
+#include "capnp/compiler/error-reporter.h"
 #include <kj/array.h>
-#include <kj/string.h>
 #include <kj/filesystem.h>
+#include <kj/memory.h>
+#include <kj/string.h>
 
 CAPNP_BEGIN_HEADER
 

@@ -19,14 +19,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "capnpc/compiler/module-loader.h"
-#include "capnpc/compiler/lexer.h"
-#include "capnpc/compiler/parser.h"
-#include <kj/vector.h>
-#include <kj/mutex.h>
+#include "capnp/compiler/module-loader.h"
+#include "capnp/message.h"
+#include "capnp/compiler/lexer.h"
+#include "capnp/compiler/parser.h"
 #include <kj/debug.h>
 #include <kj/io.h>
-#include "capnp/message.h"
+#include <kj/mutex.h>
+#include <kj/vector.h>
 #include <unordered_map>
 
 namespace capnp {

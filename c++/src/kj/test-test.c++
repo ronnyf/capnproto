@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "common.h"
-#include "test.h"
+#include "kj/common.h"
+#include "kj/test.h"
 #include <cstdlib>
 #include <stdexcept>
 #include <signal.h>

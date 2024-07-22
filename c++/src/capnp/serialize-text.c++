@@ -24,10 +24,10 @@
 #include <kj/debug.h>
 
 #include "capnp/pretty-print.h"
-#include <capnpc/compiler/lexer.capnp.h>
-#include <capnpc/compiler/lexer.h>
-#include <capnpc/compiler/node-translator.h>
-#include <capnpc/compiler/parser.h>
+#include "capnp/compiler/lexer.capnp.h"
+#include "capnp/compiler/lexer.h"
+#include "capnp/compiler/node-translator.h"
+#include "capnp/compiler/parser.h"
 
 namespace capnp {
 

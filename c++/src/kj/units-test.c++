@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "units.h"
+#include "kj/units.h"
 #include "kj/compat/gtest.h"
 #include <iostream>
 
