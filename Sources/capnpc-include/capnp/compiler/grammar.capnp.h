@@ -1,1 +1,0 @@
-../../../../c++/src/capnp/compiler/grammar.capnp.h
