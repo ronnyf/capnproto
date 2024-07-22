@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "capnp/websocket-rpc.h"
+#include "capnp/compat/websocket-rpc.h"
 #include <kj/io.h>
 #include "capnp/serialize.h"
 

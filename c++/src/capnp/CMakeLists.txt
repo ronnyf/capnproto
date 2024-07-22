@@ -35,6 +35,7 @@ set(capnp_headers
   orphan.h
   list.h
   any.h
+  arena.h
   message.h
   capability.h
   membrane.h

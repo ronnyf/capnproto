@@ -19,9 +19,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "threadlocal.h"
-#include "debug.h"
-#include "thread.h"
+#include "kj/threadlocal.h"
+#include "kj/debug.h"
+#include "kj/thread.h"
 #include "kj/compat/gtest.h"
 
 namespace kj {

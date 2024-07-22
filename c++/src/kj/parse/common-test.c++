@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 #include "kj/common.h"
-#include "kj/../string.h"
+#include "kj/string.h"
 #include "kj/compat/gtest.h"
 
 namespace kj {

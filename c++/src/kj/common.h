@@ -26,7 +26,8 @@
 #pragma once
 
 #if defined(__GNUC__) || defined(__clang__)
-#define KJ_BEGIN_SYSTEM_HEADER _Pragma("GCC system_header")
+#define KJ_BEGIN_SYSTEM_HEADER
+//#define KJ_BEGIN_SYSTEM_HEADER _Pragma("GCC system_header") // << I don't think this is a good idea!!!
 #elif defined(_MSC_VER)
 #define KJ_BEGIN_SYSTEM_HEADER __pragma(warning(push, 0))
 #define KJ_END_SYSTEM_HEADER __pragma(warning(pop))

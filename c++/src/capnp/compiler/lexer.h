@@ -21,10 +21,10 @@
 
 #pragma once
 
-#include "capnpc/compiler/lexer.capnp.h"
+#include "capnp/compiler/lexer.capnp.h"
 #include <kj/parse/common.h>
 #include <kj/arena.h>
-#include "capnpc/compiler/error-reporter.h"
+#include "capnp/compiler/error-reporter.h"
 
 CAPNP_BEGIN_HEADER
 

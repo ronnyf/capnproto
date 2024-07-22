@@ -19,12 +19,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#include "table.h"
+#include "kj/table.h"
 #include "kj/test.h"
 #include <set>
 #include <unordered_set>
-#include "hash.h"
-#include "time.h"
+#include "kj/hash.h"
+#include "kj/time.h"
 #include <stdlib.h>
 
 namespace kj {
